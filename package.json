@@ -1,0 +1,24 @@
+{
+  "name": "socket-backend",
+  "version": "1.0.0",
+  "description": "Socket io Backend App",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsingh9878/SOCKET-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsingh9878/SOCKET-Backend/issues"
+  },
+  "homepage": "https://github.com/rahulsingh9878/SOCKET-Backend#readme"
+}
