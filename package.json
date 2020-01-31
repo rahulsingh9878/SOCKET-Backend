@@ -11,6 +11,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "node index.js"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rahulsingh9878/SOCKET-Backend.git"
