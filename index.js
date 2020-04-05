@@ -8,6 +8,14 @@ io.on('connection', function(socket){
     console.log(msg);
     io.emit('chat message', msg);
   });
+  socket.on('start', function(msg){
+    console.log(msg);
+    io.emit('start', msg);
+  });
+  socket.on('reset', function(msg){
+    console.log(msg);
+    io.emit('reset', msg);
+  });
 });
 
 http.listen(port, function(){
